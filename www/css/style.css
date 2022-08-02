@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Popins', sans-serif;
+}
+
+h1{
+    color: #000;
+    margin: 2rem;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    background: #fff;
+}
+
+img{
+    width: 14rem;
+}
+
+.titleBox{
+    text-align: center;
+} 
+
+.inputDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input{
+    outline: none;
+    padding: 1rem 2rem;
+    margin-bottom: 0.8rem;
+    border: none;
+    border-bottom: 1px solid rgb(187, 187, 187);
+}
+
+.btn{
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.8rem 6.4rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.ForgotPassword{
+    margin-top: 0.4rem;
+    margin-left: 4rem;
+    text-align: justify;
+}
+
+.LinkSenha{
+    font-size: 0.6rem;
+    text-decoration: none;
+}
+
+.newAc{
+    text-decoration: none;
+}
+
+.newAcc{
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 1rem;
+}
+
+.loginAlter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginBox{
+    padding: 0.8rem;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    margin: 1rem;
+    font-size: 20px;
+
+}
